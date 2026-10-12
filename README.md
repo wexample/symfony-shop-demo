@@ -1,10 +1,13 @@
 # symfony-shop-demo
 
-Version: 1.0.1
+Version: 1.0.2
+
+A demo of symfony-shop-ds: a small catalogue bought through the purchase tunnel and a provider pretended
 
 ## Table of Contents
 
 - [Integration in the Suite](#integration-in-the-suite)
+- [Dependencies](#dependencies)
 - [Versioning & Compatibility Policy](#versioning--compatibility-policy)
 - [License](#license)
 - [About us](#about-us)
@@ -19,6 +22,18 @@ This package is part of the Wexample Suite — a collection of high-quality, mod
 The suite includes packages for configuration management, file handling, prompts, and more. Each package can be used independently or as part of the integrated suite.
 
 Visit the [Wexample Suite documentation](https://docs.wexample.com) for the complete package ecosystem.
+
+## Dependencies
+
+- php: >=8.5
+- wexample/symfony-helpers: >=15.0.0
+- wexample/symfony-loader: >=22.0.0
+- wexample/symfony-design-system: >=32.0.0
+- wexample/symfony-shop: >=3.0.1
+- wexample/symfony-shop-ds: >=1.0.1
+- wexample/symfony-payment-demo: >=1.0.1
+- wexample/symfony-user: >=11.0.0
+- wexample/symfony-user-demo: >=5.0.0
 
 ## Versioning & Compatibility Policy
 

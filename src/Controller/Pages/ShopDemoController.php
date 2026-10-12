@@ -4,10 +4,10 @@ namespace Wexample\SymfonyShopDemo\Controller\Pages;
 
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
-use Wexample\SymfonyShopDemo\Service\DemoCatalogueService;
-use Wexample\SymfonyShopDemo\Traits\SymfonyShopDemoBundleClassTrait;
 use Wexample\SymfonyHelpers\Helper\VariableHelper;
 use Wexample\SymfonyLoader\Controller\AbstractPagesController;
+use Wexample\SymfonyShopDemo\Service\DemoCatalogueService;
+use Wexample\SymfonyShopDemo\Traits\SymfonyShopDemoBundleClassTrait;
 
 /**
  * The cart of symfony-shop-ds tried on a catalogue of the demo's: what to

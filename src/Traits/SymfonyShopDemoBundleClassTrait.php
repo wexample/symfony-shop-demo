@@ -2,8 +2,8 @@
 
 namespace Wexample\SymfonyShopDemo\Traits;
 
-use Wexample\SymfonyShopDemo\WexampleSymfonyShopDemoBundle;
 use Wexample\SymfonyHelpers\Traits\BundleClassTrait;
+use Wexample\SymfonyShopDemo\WexampleSymfonyShopDemoBundle;
 
 trait SymfonyShopDemoBundleClassTrait
 {
