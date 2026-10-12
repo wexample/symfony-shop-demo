@@ -1,8 +1,8 @@
-domain: symfony-cart-demo.wex
+domain: symfony-shop-demo.wex
 git:
   publication_strategy: main_push
 global:
-  name: symfony-cart-demo
+  name: symfony-shop-demo
   type: php-package
   version: 1.0.1
 wex:

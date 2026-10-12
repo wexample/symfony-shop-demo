@@ -1,15 +1,15 @@
 <?php
 
-namespace Wexample\SymfonyCartDemo\Service;
+namespace Wexample\SymfonyShopDemo\Service;
 
 use DateTimeImmutable;
 use Doctrine\ORM\EntityManagerInterface;
-use Wexample\SymfonyCart\Entity\Product;
-use Wexample\SymfonyCart\Entity\ProductAvailability;
-use Wexample\SymfonyCart\Entity\ProductVariation;
-use Wexample\SymfonyCart\Entity\Schedule;
-use Wexample\SymfonyCart\Enum\VariationPriceAction;
-use Wexample\SymfonyCart\Repository\ProductRepository;
+use Wexample\SymfonyShop\Entity\Product;
+use Wexample\SymfonyShop\Entity\ProductAvailability;
+use Wexample\SymfonyShop\Entity\ProductVariation;
+use Wexample\SymfonyShop\Entity\Schedule;
+use Wexample\SymfonyShop\Enum\VariationPriceAction;
+use Wexample\SymfonyShop\Repository\ProductRepository;
 
 /**
  * The demo's catalogue, written once on the first visit: a thing shipped, a

@@ -1,11 +1,11 @@
 <?php
 
-namespace Wexample\SymfonyCartDemo\DependencyInjection;
+namespace Wexample\SymfonyShopDemo\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Wexample\SymfonyHelpers\DependencyInjection\AbstractWexampleSymfonyExtension;
 
-class WexampleSymfonyCartDemoExtension extends AbstractWexampleSymfonyExtension
+class WexampleSymfonyShopDemoExtension extends AbstractWexampleSymfonyExtension
 {
     public function load(
         array $configs,

@@ -1,4 +1,4 @@
-# symfony-cart-demo
+# symfony-shop-demo
 
 Version: 1.0.1
 

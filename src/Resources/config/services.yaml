@@ -4,9 +4,9 @@ services:
         autoconfigure: true
         public: false
 
-    Wexample\SymfonyCartDemo\:
+    Wexample\SymfonyShopDemo\:
         resource: '../../{Service,Command}'
 
-    Wexample\SymfonyCartDemo\Controller\:
+    Wexample\SymfonyShopDemo\Controller\:
         resource: '../../Controller/'
         tags: ['controller.service_arguments']

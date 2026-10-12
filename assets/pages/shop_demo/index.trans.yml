@@ -1,10 +1,10 @@
 en:
-  page_title: Cart demo
+  page_title: Shop demo
   page_icon: ph:bold/storefront
   shop: Go to the shop
   cart: Cart
   intro: >-
-    symfony-cart-ds on a catalogue of the demo's: a T-shirt shipped, a workshop
+    symfony-shop-ds on a catalogue of the demo's: a T-shirt shipped, a workshop
     with roles and dates of a few seats, a donation of the amount you choose.
     Put them in the cart, then order: the addresses, how to pay — the demo
     provider's card, Stripe in test mode, a transfer —, the confirmation.
@@ -21,4 +21,4 @@ en:
       text: « Decline » on the provider's page; the confirmation offers to choose again how to pay.
     expired:
       title: A cart left to expire
-      text: A cart left unpaid gives its stock back when `bin/console cart:expire` runs.
+      text: A cart left unpaid gives its stock back when `bin/console shop:expire` runs.

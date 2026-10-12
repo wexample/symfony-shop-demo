@@ -1,17 +1,17 @@
 {
-  "name": "wexample/symfony-cart-demo",
+  "name": "wexample/symfony-shop-demo",
   "version": "1.0.1",
   "type": "library",
   "license": "MIT",
-  "description": "A demo of symfony-cart-ds: a small catalogue bought through the purchase tunnel and a provider pretended",
+  "description": "A demo of symfony-shop-ds: a small catalogue bought through the purchase tunnel and a provider pretended",
   "autoload": {
     "psr-4": {
-      "Wexample\\SymfonyCartDemo\\": "src/"
+      "Wexample\\SymfonyShopDemo\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Wexample\\SymfonyCartDemo\\Tests\\": "tests/"
+      "Wexample\\SymfonyShopDemo\\Tests\\": "tests/"
     }
   },
   "authors": [
@@ -25,8 +25,8 @@
     "wexample/symfony-helpers": ">=15.0.0",
     "wexample/symfony-loader": ">=22.0.0",
     "wexample/symfony-design-system": ">=32.0.0",
-    "wexample/symfony-cart": ">=3.0.1",
-    "wexample/symfony-cart-ds": ">=1.0.1",
+    "wexample/symfony-shop": ">=3.0.1",
+    "wexample/symfony-shop-ds": ">=1.0.1",
     "wexample/symfony-payment-demo": ">=1.0.1",
     "wexample/symfony-user": ">=11.0.0",
     "wexample/symfony-user-demo": ">=5.0.0"
