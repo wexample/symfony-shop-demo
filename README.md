@@ -1,6 +1,6 @@
 # symfony-shop-demo
 
-Version: 1.0.3
+Version: 1.0.4
 
 A demo of symfony-shop-ds: a small catalogue bought through the purchase tunnel and a provider pretended
 
@@ -28,7 +28,7 @@ Visit the [Wexample Suite documentation](https://docs.wexample.com) for the comp
 - php: >=8.5
 - wexample/symfony-helpers: >=16.0.0
 - wexample/symfony-loader: >=23.0.0
-- wexample/symfony-design-system: >=34.0.0
+- wexample/symfony-design-system: >=35.0.0
 - wexample/symfony-shop: >=4.0.0
 - wexample/symfony-shop-ds: >=2.0.0
 - wexample/symfony-payment-demo: >=2.0.0
