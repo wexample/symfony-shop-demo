@@ -64,3 +64,423 @@ zh:
     expired:
       title: 购物车未支付过期
       text: '未支付的购物车在运行 `bin/console shop:expire` 时将其库存归还。'
+
+ar:
+  page_title: السيناريوهات
+  page_icon: 'ph:bold/list-checks'
+  shop: 'اذهب إلى المتجر'
+  cart: 'عربة التسوق'
+  intro: 'symfony-shop-ds في كتالوج العرض: تي شيرت مشحون، ورشة عمل بأدوار وتواريخ لعدد قليل من المقاعد، تبرع بالمبلغ الذي تختاره. ضعها في العربة، ثم اطلب: العناوين، كيفية الدفع - بطاقة موفر العرض، Stripe في وضع الاختبار، تحويل -، التأكيد.'
+  cases:
+    title: 'ماذا تجرب'
+    bought:
+      title: 'طلب عبر'
+      text: 'اطلب تي شيرت وادفع ببطاقة موفر العرض، « دفع » على صفحته.'
+    sold_out:
+      title: 'تاريخ نفد'
+      text: 'آخر تاريخ للورشة لديه مقعد واحد. اشتره مرة واحدة؛ المشتري التالي يجده نفد.'
+    failed:
+      title: 'فشل الدفع، ثم تم استئنافه'
+      text: '« رفض » على صفحة الموفر؛ التأكيد يعرض اختيار طريقة الدفع مرة أخرى.'
+    expired:
+      title: 'عربة تُركت لتنفد'
+      text: 'عربة تُركت دون دفع تعيد مخزونها عندما يتم تشغيل `bin/console shop:expire`.'
+
+hi:
+  page_title: परिदृश्य
+  page_icon: 'ph:bold/list-checks'
+  shop: 'दुकान पर जाएं'
+  cart: कार्ट
+  intro: 'symfony-shop-ds पर डेमो के कैटलॉग में: एक टी-शर्ट भेजी गई, कुछ सीटों के लिए भूमिकाओं और तिथियों के साथ एक कार्यशाला, आपके द्वारा चुने गए राशि का एक दान। इन्हें कार्ट में डालें, फिर ऑर्डर करें: पते, भुगतान कैसे करें — डेमो प्रदाता का कार्ड, परीक्षण मोड में स्ट्राइप, एक ट्रांसफर —, पुष्टि।'
+  cases:
+    title: 'क्या आजमाएं'
+    bought:
+      title: 'एक ऑर्डर के माध्यम से'
+      text: 'एक टी-शर्ट ऑर्डर करें और डेमो प्रदाता के कार्ड से भुगतान करें, इसके पृष्ठ पर « भुगतान करें »।'
+    sold_out:
+      title: 'एक तिथि बिक गई'
+      text: 'कार्यशाला की अंतिम तिथि में एक सीट है। इसे एक बार खरीदें; अगला खरीदार इसे बिक गया पाएगा।'
+    failed:
+      title: 'एक भुगतान असफल हुआ, फिर से लिया गया'
+      text: 'प्रदाता के पृष्ठ पर « अस्वीकार करें »; पुष्टि फिर से भुगतान करने का विकल्प देती है।'
+    expired:
+      title: 'एक कार्ट समाप्त होने के लिए छोड़ी गई'
+      text: 'एक बिना भुगतान की गई कार्ट जब `bin/console shop:expire` चलती है, तो इसका स्टॉक वापस दे देती है।'
+
+he:
+  page_title: תסריטים
+  page_icon: 'ph:bold/list-checks'
+  shop: 'ללכת לחנות'
+  cart: 'עגלת קניות'
+  intro: 'symfony-shop-ds על קטלוג של הדמו: חולצה שנשלחה, סדנה עם תפקידים ותאריכים של כמה מקומות, תרומה של הסכום שתבחר. שים אותם בעגלת הקניות, ואז הזמן: הכתובות, איך לשלם — כרטיס של ספק הדמו, Stripe במצב בדיקה, העברה —, האישור.'
+  cases:
+    title: 'מה לנסות'
+    bought:
+      title: 'הזמנה דרך'
+      text: 'הזמן חולצה ושלם עם כרטיס של ספק הדמו, «שלם» בעמוד שלו.'
+    sold_out:
+      title: 'תאריך נמכר'
+      text: 'התאריך האחרון של הסדנה יש בו מקום אחד. קנה אותו פעם אחת; הקונה הבא מוצא אותו נמכר.'
+    failed:
+      title: 'תשלום נכשל, ואז נלקח שוב'
+      text: '«סירוב» בעמוד של הספק; האישור מציע לבחור שוב איך לשלם.'
+    expired:
+      title: 'עגלת קניות שהושארה לפגות תוקף'
+      text: 'עגלת קניות שהושארה ללא תשלום מחזירה את המלאי שלה כאשר `bin/console shop:expire` רץ.'
+
+fa:
+  page_title: سناریوها
+  page_icon: 'ph:bold/list-checks'
+  shop: 'به فروشگاه بروید'
+  cart: 'سبد خرید'
+  intro: 'symfony-shop-ds در یک کاتالوگ از دمو: یک تی‌شرت ارسال شده، یک کارگاه با نقش‌ها و تاریخ‌های چند صندلی، یک donation به مقدار انتخابی شما. آنها را در سبد خرید قرار دهید، سپس سفارش دهید: آدرس‌ها، نحوه پرداخت — کارت ارائه‌دهنده دمو، Stripe در حالت آزمایشی، یک انتقال —، تأییدیه.'
+  cases:
+    title: 'چه چیزی را امتحان کنیم'
+    bought:
+      title: 'یک سفارش از طریق'
+      text: 'یک تی‌شرت سفارش دهید و با کارت ارائه‌دهنده دمو پرداخت کنید، «پرداخت» در صفحه آن.'
+    sold_out:
+      title: 'تاریخ تمام شده'
+      text: 'آخرین تاریخ کارگاه یک صندلی دارد. یک بار خریداری کنید؛ خریدار بعدی آن را تمام شده پیدا می‌کند.'
+    failed:
+      title: 'پرداخت ناموفق، سپس دوباره انجام شد'
+      text: '«رد» در صفحه ارائه‌دهنده؛ تأییدیه پیشنهاد می‌دهد دوباره نحوه پرداخت را انتخاب کنید.'
+    expired:
+      title: 'سبد خرید رها شده'
+      text: 'یک سبد خرید که پرداخت نشده باشد، موجودی آن زمانی که `bin/console shop:expire` اجرا می‌شود، برمی‌گرداند.'
+
+ur:
+  page_title: مناظر
+  page_icon: 'ph:bold/list-checks'
+  shop: 'دکان پر جائیں'
+  cart: کارٹ
+  intro: 'symfony-shop-ds پر ڈیمو کی کیٹلاگ: ایک ٹی شرٹ بھیجی گئی، کچھ نشستوں کی تاریخوں اور کرداروں کے ساتھ ایک ورکشاپ، آپ کی منتخب کردہ رقم کا عطیہ۔ انہیں کارٹ میں ڈالیں، پھر آرڈر کریں: پتے، ادائیگی کا طریقہ — ڈیمو فراہم کنندہ کا کارڈ، ٹیسٹ موڈ میں Stripe، ایک ٹرانسفر —، تصدیق۔'
+  cases:
+    title: 'کیا آزمانا ہے'
+    bought:
+      title: 'ایک آرڈر کے ذریعے'
+      text: 'ایک ٹی شرٹ آرڈر کریں اور ڈیمو فراہم کنندہ کے کارڈ سے ادائیگی کریں، اس کے صفحے پر « ادائیگی کریں »۔'
+    sold_out:
+      title: 'ایک تاریخ ختم ہوگئی'
+      text: 'ورکشاپ کی آخری تاریخ میں ایک سیٹ ہے۔ اسے ایک بار خریدیں؛ اگلا خریدار اسے ختم شدہ پاتا ہے۔'
+    failed:
+      title: 'ایک ادائیگی ناکام ہوئی، پھر دوبارہ کی گئی'
+      text: 'فراہم کنندہ کے صفحے پر « انکار »؛ تصدیق دوبارہ ادائیگی کا طریقہ منتخب کرنے کی پیشکش کرتی ہے۔'
+    expired:
+      title: 'ایک کارٹ کو ختم ہونے کے لیے چھوڑ دیا گیا'
+      text: 'ایک ادائیگی نہ ہونے والا کارٹ `bin/console shop:expire` چلنے پر اپنے اسٹاک واپس دیتا ہے۔'
+
+ja:
+  page_title: シナリオ
+  page_icon: 'ph:bold/list-checks'
+  shop: ショップへ行く
+  cart: カート
+  intro: 'symfony-shop-dsはデモのカタログにおいて、発送されたTシャツ、役割と日付のあるワークショップ、選択した金額の寄付を提供しています。これらをカートに入れ、次に注文します：住所、支払い方法 — デモプロバイダーのカード、テストモードのStripe、振込 —、確認を行います。'
+  cases:
+    title: 試すこと
+    bought:
+      title: 注文を通して
+      text: Tシャツを注文し、デモプロバイダーのカードで支払います。「支払う」をそのページでクリックしてください。
+    sold_out:
+      title: 売り切れの日付
+      text: ワークショップの最後の日付には1席があります。一度購入すると、次の購入者は売り切れと表示されます。
+    failed:
+      title: 支払いが失敗し、その後再度行われる
+      text: プロバイダーのページで「拒否」を選択すると、確認が再度支払い方法を選択するように促します。
+    expired:
+      title: 期限切れのカート
+      text: '未払いのカートは、`bin/console shop:expire`が実行されると在庫が戻ります。'
+
+ko:
+  page_title: 시나리오
+  page_icon: 'ph:bold/list-checks'
+  shop: '상점으로 가기'
+  cart: 장바구니
+  intro: 'symfony-shop-ds에서 데모의 카탈로그: 배송된 티셔츠, 역할과 날짜가 포함된 워크숍 몇 자리, 선택한 금액의 기부. 장바구니에 담고 주문하세요: 주소, 결제 방법 — 데모 제공자의 카드, 테스트 모드의 Stripe, 송금 —, 확인.'
+  cases:
+    title: '해볼 것'
+    bought:
+      title: 주문하기
+      text: '티셔츠를 주문하고 데모 제공자의 카드로 결제하세요. 페이지에서 « 결제 »를 클릭하세요.'
+    sold_out:
+      title: '매진된 날짜'
+      text: '워크숍의 마지막 날짜에 한 자리가 있습니다. 한 번 구매하세요; 다음 구매자는 매진된 것을 보게 됩니다.'
+    failed:
+      title: '결제 실패 후 재시도'
+      text: '제공자의 페이지에서 « 거절 »; 확인이 다시 결제 방법을 선택하도록 제안합니다.'
+    expired:
+      title: '만료된 장바구니'
+      text: '결제되지 않은 장바구니는 `bin/console shop:expire`가 실행될 때 재고를 반환합니다.'
+
+bn:
+  page_title: পরিকল্পনা
+  page_icon: 'ph:bold/list-checks'
+  shop: 'দোকানে যান'
+  cart: কার্ট
+  intro: 'symfony-shop-ds একটি ক্যাটালগে: একটি টি-শার্ট পাঠানো হয়েছে, কয়েকটি সিটের ভূমিকাসহ ও তারিখসহ একটি কর্মশালা, আপনার পছন্দের পরিমাণের একটি দান। সেগুলো কার্টে রাখুন, তারপর অর্ডার করুন: ঠিকানা, কীভাবে পেমেন্ট করবেন — ডেমো প্রদানকারীর কার্ড, পরীক্ষামূলক মোডে Stripe, একটি স্থানান্তর —, নিশ্চিতকরণ।'
+  cases:
+    title: 'কী চেষ্টা করবেন'
+    bought:
+      title: 'একটি অর্ডার মাধ্যমে'
+      text: 'একটি টি-শার্ট অর্ডার করুন এবং ডেমো প্রদানকারীর কার্ড দিয়ে পেমেন্ট করুন, তার পৃষ্ঠায় « Pay »।'
+    sold_out:
+      title: 'একটি তারিখ বিক্রি হয়ে গেছে'
+      text: 'কর্মশালার শেষ তারিখে একটি সিট রয়েছে। এটি একবার কিনুন; পরবর্তী ক্রেতা এটি বিক্রি হয়ে গেছে পাবে।'
+    failed:
+      title: 'একটি পেমেন্ট ব্যর্থ হয়েছে, তারপর পুনরায় নেওয়া হয়েছে'
+      text: 'প্রদানকারীর পৃষ্ঠায় « Decline »; নিশ্চিতকরণ আবার কীভাবে পেমেন্ট করবেন তা নির্বাচন করার প্রস্তাব দেয়।'
+    expired:
+      title: 'একটি কার্ট মেয়াদ শেষ হয়েছে'
+      text: 'একটি অনাদায়ী কার্ট `bin/console shop:expire` চালানোর সময় তার স্টক ফেরত দেয়।'
+
+th:
+  page_title: สถานการณ์
+  page_icon: 'ph:bold/list-checks'
+  shop: ไปที่ร้าน
+  cart: ตะกร้า
+  intro: 'symfony-shop-ds บนแคตตาล็อกของการสาธิต: เสื้อยืดที่จัดส่ง, เวิร์กช็อปพร้อมบทบาทและวันที่ของที่นั่งบางส่วน, การบริจาคตามจำนวนที่คุณเลือก. ใส่สิ่งเหล่านี้ในตะกร้า แล้วสั่งซื้อ: ที่อยู่, วิธีการชำระเงิน — บัตรของผู้ให้บริการสาธิต, Stripe ในโหมดทดสอบ, การโอน —, การยืนยัน.'
+  cases:
+    title: ลองทำอะไรดี
+    bought:
+      title: สั่งซื้อผ่าน
+      text: 'สั่งซื้อเสื้อยืดและชำระเงินด้วยบัตรของผู้ให้บริการสาธิต, « ชำระเงิน » บนหน้าของมัน.'
+    sold_out:
+      title: วันที่ขายหมด
+      text: 'วันที่สุดท้ายของเวิร์กช็อปมีที่นั่งเดียว. ซื้อครั้งเดียว; ผู้ซื้อถัดไปจะพบว่ามันหมด.'
+    failed:
+      title: 'การชำระเงินล้มเหลว, แล้วกลับมาทำใหม่'
+      text: '« ปฏิเสธ » บนหน้าของผู้ให้บริการ; การยืนยันเสนอให้เลือกวิธีการชำระเงินใหม่อีกครั้ง.'
+    expired:
+      title: ตะกร้าที่ปล่อยให้หมดอายุ
+      text: 'ตะกร้าที่ไม่ได้ชำระเงินจะคืนสต็อกเมื่อรัน `bin/console shop:expire`.'
+
+de:
+  page_title: Szenarien
+  page_icon: 'ph:bold/list-checks'
+  shop: 'Gehe zum Shop'
+  cart: Warenkorb
+  intro: 'symfony-shop-ds in einem Katalog der Demos: ein T-Shirt versandt, ein Workshop mit Rollen und Daten von ein paar Plätzen, eine Spende in der Höhe, die du wählst. Lege sie in den Warenkorb und bestelle dann: die Adressen, wie zu bezahlen — die Karte des Demo-Anbieters, Stripe im Testmodus, eine Überweisung —, die Bestätigung.'
+  cases:
+    title: 'Was ausprobieren'
+    bought:
+      title: 'Eine Bestellung über'
+      text: 'Bestelle ein T-Shirt und zahle mit der Karte des Demo-Anbieters, „Zahlen“ auf seiner Seite.'
+    sold_out:
+      title: 'Ein Termin ausverkauft'
+      text: 'Der letzte Termin des Workshops hat einen Platz. Kaufe ihn einmal; der nächste Käufer findet ihn ausverkauft.'
+    failed:
+      title: 'Eine Zahlung fehlgeschlagen, dann erneut angenommen'
+      text: '„Ablehnen“ auf der Seite des Anbieters; die Bestätigung bietet an, erneut zu wählen, wie zu zahlen.'
+    expired:
+      title: 'Ein Warenkorb lässt ablaufen'
+      text: 'Ein unbezahlter Warenkorb gibt seinen Bestand zurück, wenn `bin/console shop:expire` ausgeführt wird.'
+
+fi:
+  page_title: Skenaariot
+  page_icon: 'ph:bold/list-checks'
+  shop: 'Siirry kauppaan'
+  cart: Ostoskori
+  intro: 'symfony-shop-ds demon katalogissa: T-paita toimitettuna, työpaja rooleilla ja muutamalla paikalla olevilla päivämäärillä, lahjoitus valitsemallasi summalla. Laita ne ostoskoriin, sitten tilaa: osoitteet, maksutapa — demon tarjoajan kortti, Stripe testitilassa, siirto —, vahvistus.'
+  cases:
+    title: 'Mitä kokeilla'
+    bought:
+      title: 'Tilaus kautta'
+      text: 'Tilaa T-paita ja maksa demon tarjoajan kortilla, « Maksa » sen sivulla.'
+    sold_out:
+      title: 'Päivämäärä loppuunmyyty'
+      text: 'Työpajan viimeisellä päivämäärällä on yksi paikka. Osta se kerran; seuraava ostaja löytää sen loppuunmyytynä.'
+    failed:
+      title: 'Maksu epäonnistui, mutta otettiin uudelleen'
+      text: '« Hylkää » tarjoajan sivulla; vahvistus tarjoaa mahdollisuuden valita jälleen maksutapa.'
+    expired:
+      title: 'Ostoskori jätetty vanhentumaan'
+      text: 'Maksamatta jäänyt ostoskori palauttaa varastonsa, kun `bin/console shop:expire` suoritetaan.'
+
+ru:
+  page_title: Сценарии
+  page_icon: 'ph:bold/list-checks'
+  shop: 'Перейти в магазин'
+  cart: Корзина
+  intro: 'symfony-shop-ds в каталоге демонстрации: футболка в доставке, мастер-класс с ролями и датами на несколько мест, пожертвование на сумму по вашему выбору. Добавьте их в корзину, затем оформите заказ: адреса, как оплатить — карта поставщика демонстрации, Stripe в тестовом режиме, перевод —, подтверждение.'
+  cases:
+    title: 'Что попробовать'
+    bought:
+      title: 'Заказ через'
+      text: 'Закажите футболку и оплатите картой поставщика демонстрации, на странице « Оплатить ».'
+    sold_out:
+      title: 'Дата распродана'
+      text: 'На последнюю дату мастер-класса осталось одно место. Купите его один раз; следующий покупатель увидит, что оно распродано.'
+    failed:
+      title: 'Оплата не прошла, затем возобновлена'
+      text: '« Отказ » на странице поставщика; подтверждение предлагает снова выбрать способ оплаты.'
+    expired:
+      title: 'Корзина оставлена без оплаты'
+      text: 'Корзина, оставленная неоплаченной, возвращает свои товары, когда выполняется `bin/console shop:expire`.'
+
+pl:
+  page_title: Scenariusze
+  page_icon: 'ph:bold/list-checks'
+  shop: 'Przejdź do sklepu'
+  cart: Koszyk
+  intro: 'symfony-shop-ds w katalogu demo: T-shirt w wysyłce, warsztat z rolami i datami kilku miejsc, darowizna w dowolnej kwocie. Dodaj je do koszyka, a następnie zamów: adresy, jak płacić — karta dostawcy demo, Stripe w trybie testowym, przelew — potwierdzenie.'
+  cases:
+    title: 'Co spróbować'
+    bought:
+      title: 'Zamówienie przez'
+      text: 'Zamów T-shirt i zapłać kartą dostawcy demo, klikając „Zapłać” na jego stronie.'
+    sold_out:
+      title: 'Termin wyprzedany'
+      text: 'Ostatni termin warsztatu ma jedno miejsce. Kup je raz; następny kupujący znajdzie je wyprzedane.'
+    failed:
+      title: 'Płatność nieudana, potem podjęta ponownie'
+      text: '„Odrzuć” na stronie dostawcy; potwierdzenie oferuje ponowny wybór metody płatności.'
+    expired:
+      title: 'Koszyk pozostawiony do wygaśnięcia'
+      text: 'Koszyk pozostawiony bez zapłaty zwraca swoje zapasy, gdy uruchomi się `bin/console shop:expire`.'
+
+es:
+  page_title: Escenarios
+  page_icon: 'ph:bold/list-checks'
+  shop: 'Ir a la tienda'
+  cart: Carrito
+  intro: 'symfony-shop-ds en un catálogo de la demo: una camiseta enviada, un taller con roles y fechas de algunos asientos, una donación del monto que elijas. Agrégalas al carrito, luego ordena: las direcciones, cómo pagar — la tarjeta del proveedor de la demo, Stripe en modo de prueba, una transferencia —, la confirmación.'
+  cases:
+    title: 'Qué probar'
+    bought:
+      title: 'Un pedido a través de'
+      text: 'Pide una camiseta y paga con la tarjeta del proveedor de la demo, « Pagar » en su página.'
+    sold_out:
+      title: 'Una fecha agotada'
+      text: 'La última fecha del taller tiene un asiento. Cómpralo una vez; el siguiente comprador lo encontrará agotado.'
+    failed:
+      title: 'Un pago fallido, luego recuperado'
+      text: '« Rechazar » en la página del proveedor; la confirmación ofrece elegir de nuevo cómo pagar.'
+    expired:
+      title: 'Un carrito dejado expirar'
+      text: 'Un carrito dejado sin pagar devuelve su stock cuando se ejecuta `bin/console shop:expire`.'
+
+it:
+  page_title: Scenari
+  page_icon: 'ph:bold/list-checks'
+  shop: 'Vai al negozio'
+  cart: Carrello
+  intro: "symfony-shop-ds su un catalogo del demo: una T-shirt spedita, un workshop con ruoli e date di alcuni posti, una donazione dell'importo che scegli. Mettili nel carrello, poi ordina: gli indirizzi, come pagare — la carta del fornitore del demo, Stripe in modalità test, un bonifico —, la conferma."
+  cases:
+    title: 'Cosa provare'
+    bought:
+      title: 'Un ordine tramite'
+      text: 'Ordina una T-shirt e paga con la carta del fornitore del demo, « Paga » nella sua pagina.'
+    sold_out:
+      title: 'Una data esaurita'
+      text: "L'ultima data del workshop ha un posto. Compralo una sola volta; il prossimo acquirente lo trova esaurito."
+    failed:
+      title: 'Un pagamento non riuscito, poi ripreso'
+      text: '« Rifiuta » nella pagina del fornitore; la conferma offre di scegliere nuovamente come pagare.'
+    expired:
+      title: 'Un carrello lasciato scadere'
+      text: 'Un carrello lasciato non pagato restituisce il suo stock quando `bin/console shop:expire` viene eseguito.'
+
+pt_BR:
+  page_title: Cenários
+  page_icon: 'ph:bold/list-checks'
+  shop: 'Ir para a loja'
+  cart: Carrinho
+  intro: 'symfony-shop-ds em um catálogo da demonstração: uma camiseta enviada, um workshop com papéis e datas de alguns assentos, uma doação do valor que você escolher. Coloque-os no carrinho e, em seguida, faça o pedido: os endereços, como pagar — o cartão do provedor da demonstração, Stripe em modo de teste, uma transferência —, a confirmação.'
+  cases:
+    title: 'O que experimentar'
+    bought:
+      title: 'Um pedido através de'
+      text: 'Peça uma camiseta e pague com o cartão do provedor da demonstração, « Pagar » na sua página.'
+    sold_out:
+      title: 'Uma data esgotada'
+      text: 'A última data do workshop tem um assento. Compre-o uma vez; o próximo comprador o encontra esgotado.'
+    failed:
+      title: 'Um pagamento falhou, depois foi retomado'
+      text: '« Recusar » na página do provedor; a confirmação oferece a opção de escolher novamente como pagar.'
+    expired:
+      title: 'Um carrinho deixado expirar'
+      text: 'Um carrinho deixado sem pagamento devolve seu estoque quando `bin/console shop:expire` é executado.'
+
+tr:
+  page_title: Senaryolar
+  page_icon: 'ph:bold/list-checks'
+  shop: 'Mağazaya git'
+  cart: Sepet
+  intro: 'symfony-shop-ds, demoya ait bir katalogda: bir tişört gönderildi, birkaç koltuk için roller ve tarihlerle bir atölye, dilediğiniz miktarda bir bağış. Bunları sepete koyun, ardından sipariş verin: adresler, nasıl ödeme yapılacağı — demo sağlayıcısının kartı, test modunda Stripe, bir havale —, onay.'
+  cases:
+    title: 'Ne denemeli'
+    bought:
+      title: 'Bir sipariş üzerinden'
+      text: 'Bir tişört sipariş edin ve demo sağlayıcısının kartıyla ödeme yapın, sayfasında « Öde » butonuna tıklayın.'
+    sold_out:
+      title: 'Bir tarih tükendi'
+      text: 'Atölyenin son tarihinin bir koltuğu var. Bir kez satın alın; sonraki alıcı onu tükendi olarak bulur.'
+    failed:
+      title: 'Bir ödeme başarısız oldu, sonra tekrar alındı'
+      text: 'Sağlayıcının sayfasında « Reddet »; onay, nasıl ödeme yapılacağını tekrar seçme seçeneği sunar.'
+    expired:
+      title: 'Süresi dolmuş bir sepet'
+      text: 'Ödenmemiş bir sepet, `bin/console shop:expire` çalıştırıldığında stokunu geri verir.'
+
+vi:
+  page_title: 'Kịch bản'
+  page_icon: 'ph:bold/list-checks'
+  shop: 'Đi đến cửa hàng'
+  cart: 'Giỏ hàng'
+  intro: 'symfony-shop-ds trên một danh mục của bản demo: một chiếc áo phông đã được giao, một hội thảo với các vai trò và ngày cho một vài chỗ ngồi, một khoản quyên góp với số tiền bạn chọn. Đặt chúng vào giỏ hàng, sau đó đặt hàng: địa chỉ, cách thanh toán — thẻ của nhà cung cấp demo, Stripe ở chế độ thử nghiệm, một chuyển khoản —, xác nhận.'
+  cases:
+    title: 'Những gì cần thử'
+    bought:
+      title: 'Một đơn hàng thông qua'
+      text: 'Đặt một chiếc áo phông và thanh toán bằng thẻ của nhà cung cấp demo, « Thanh toán » trên trang của nó.'
+    sold_out:
+      title: 'Một ngày đã bán hết'
+      text: 'Ngày cuối cùng của hội thảo có một chỗ ngồi. Mua nó một lần; người mua tiếp theo sẽ thấy nó đã bán hết.'
+    failed:
+      title: 'Một lần thanh toán thất bại, sau đó được khôi phục'
+      text: '« Từ chối » trên trang của nhà cung cấp; xác nhận cung cấp lựa chọn lại cách thanh toán.'
+    expired:
+      title: 'Một giỏ hàng để hết hạn'
+      text: 'Một giỏ hàng không thanh toán sẽ trả lại hàng tồn kho khi `bin/console shop:expire` được chạy.'
+
+id:
+  page_title: Skenario
+  page_icon: 'ph:bold/list-checks'
+  shop: 'Kunjungi toko'
+  cart: Keranjang
+  intro: 'symfony-shop-ds pada katalog demo: sebuah kaos dikirim, sebuah workshop dengan peran dan tanggal beberapa kursi, sebuah donasi dengan jumlah yang Anda pilih. Masukkan ke dalam keranjang, kemudian pesan: alamat, cara membayar — kartu penyedia demo, Stripe dalam mode uji, transfer —, konfirmasi.'
+  cases:
+    title: 'Apa yang dicoba'
+    bought:
+      title: 'Sebuah pesanan melalui'
+      text: 'Pesan sebuah kaos dan bayar dengan kartu penyedia demo, « Bayar » di halamannya.'
+    sold_out:
+      title: 'Tanggal habis'
+      text: 'Tanggal terakhir workshop memiliki satu kursi. Beli sekali; pembeli berikutnya menemukan sudah habis.'
+    failed:
+      title: 'Pembayaran gagal, kemudian diambil lagi'
+      text: '« Tolak » di halaman penyedia; konfirmasi menawarkan untuk memilih lagi cara membayar.'
+    expired:
+      title: 'Keranjang yang dibiarkan kadaluarsa'
+      text: 'Keranjang yang tidak dibayar mengembalikan stoknya ketika `bin/console shop:expire` dijalankan.'
+
+nl:
+  page_title: "Scenario's"
+  page_icon: 'ph:bold/list-checks'
+  shop: 'Ga naar de winkel'
+  cart: Winkelwagentje
+  intro: "symfony-shop-ds op een catalogus van de demo's: een T-shirt verzonden, een workshop met rollen en data van een paar plaatsen, een donatie van het bedrag dat je kiest. Zet ze in het winkelwagentje, en bestel dan: de adressen, hoe te betalen — de kaart van de demo aanbieder, Stripe in testmodus, een overboeking —, de bevestiging."
+  cases:
+    title: 'Wat te proberen'
+    bought:
+      title: 'Een bestelling via'
+      text: 'Bestel een T-shirt en betaal met de kaart van de demo aanbieder, « Betalen » op zijn pagina.'
+    sold_out:
+      title: 'Een datum uitverkocht'
+      text: 'De laatste datum van de workshop heeft één plaats. Koop het eenmaal; de volgende koper vindt het uitverkocht.'
+    failed:
+      title: 'Een betaling mislukt, daarna opnieuw opgepakt'
+      text: '« Weigeren » op de pagina van de aanbieder; de bevestiging biedt aan opnieuw te kiezen hoe te betalen.'
+    expired:
+      title: 'Een winkelwagentje dat is verlopen'
+      text: 'Een winkelwagentje dat onbetaald is gelaten geeft zijn voorraad terug wanneer `bin/console shop:expire` wordt uitgevoerd.'
