@@ -22,3 +22,45 @@ en:
     expired:
       title: A cart left to expire
       text: A cart left unpaid gives its stock back when `bin/console shop:expire` runs.
+
+fr:
+  page_title: Scénarios
+  page_icon: 'ph:bold/list-checks'
+  shop: 'Aller au magasin'
+  cart: Panier
+  intro: 'symfony-shop-ds sur un catalogue des démos : un T-shirt expédié, un atelier avec rôles et dates de quelques places, un don du montant de votre choix. Mettez-les dans le panier, puis commandez : les adresses, comment payer — la carte du fournisseur de démo, Stripe en mode test, un virement —, la confirmation.'
+  cases:
+    title: 'Que tester'
+    bought:
+      title: 'Une commande via'
+      text: 'Commandez un T-shirt et payez avec la carte du fournisseur de démo, « Payer » sur sa page.'
+    sold_out:
+      title: 'Une date épuisée'
+      text: "La dernière date de l'atelier a une place. Achetez-la une fois ; le prochain acheteur la trouve épuisée."
+    failed:
+      title: 'Un paiement échoué, puis relancé'
+      text: '« Refuser » sur la page du fournisseur ; la confirmation propose de choisir à nouveau comment payer.'
+    expired:
+      title: 'Un panier laissé expirer'
+      text: 'Un panier laissé impayé restitue son stock lorsque `bin/console shop:expire` est exécuté.'
+
+zh:
+  page_title: 场景
+  page_icon: 'ph:bold/list-checks'
+  shop: 前往商店
+  cart: 购物车
+  intro: 'symfony-shop-ds 在演示的目录中：一件已发货的T恤，一场有角色和几个座位日期的工作坊，一个您选择金额的捐赠。将它们放入购物车，然后下单：地址、支付方式——演示提供者的卡、测试模式下的Stripe、转账——，确认。'
+  cases:
+    title: 尝试什么
+    bought:
+      title: 通过下单
+      text: 订购一件T恤，并使用演示提供者的卡支付，在其页面上点击“支付”。
+    sold_out:
+      title: 日期已售罄
+      text: 工作坊的最后一个日期只有一个座位。买一次；下一个买家发现已售罄。
+    failed:
+      title: 支付失败，然后重新尝试
+      text: 在提供者页面点击“拒绝”；确认提供再次选择支付方式。
+    expired:
+      title: 购物车未支付过期
+      text: '未支付的购物车在运行 `bin/console shop:expire` 时将其库存归还。'
