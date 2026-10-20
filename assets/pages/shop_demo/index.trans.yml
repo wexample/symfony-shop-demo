@@ -1,5 +1,6 @@
 en:
   page_title: Scenarios
+  page_description: "A working shop to try: a T-shirt shipped, a workshop with dated seats, a donation of your choice, then checkout by card, Stripe in test mode or bank transfer."
   page_icon: ph:bold/list-checks
   shop: Go to the shop
   cart: Cart
@@ -25,6 +26,7 @@ en:
 
 fr:
   page_title: Scénarios
+  page_description: "Une boutique fonctionnelle à essayer : un T-shirt expédié, un atelier à places datées, un don du montant choisi, puis le paiement par carte, Stripe en mode test ou virement."
   page_icon: 'ph:bold/list-checks'
   shop: 'Aller au magasin'
   cart: Panier
@@ -46,6 +48,7 @@ fr:
 
 zh:
   page_title: 场景
+  page_description: "一个可试用的真实商店：可配送的 T 恤、按日期限定名额的工作坊、自定金额的捐款，然后通过银行卡、测试模式的 Stripe 或银行转账结账。"
   page_icon: 'ph:bold/list-checks'
   shop: 前往商店
   cart: 购物车
@@ -67,6 +70,7 @@ zh:
 
 ar:
   page_title: السيناريوهات
+  page_description: "متجر يعمل يمكنك تجربته: قميص يُشحن، ورشة عمل بمقاعد محددة التواريخ، تبرع بالمبلغ الذي تختاره، ثم الدفع بالبطاقة أو Stripe في وضع الاختبار أو التحويل البنكي."
   page_icon: 'ph:bold/list-checks'
   shop: 'اذهب إلى المتجر'
   cart: 'عربة التسوق'
@@ -88,6 +92,7 @@ ar:
 
 hi:
   page_title: परिदृश्य
+  page_description: "आज़माने के लिए एक चालू दुकान: भेजी जाने वाली टी-शर्ट, तारीख़वार सीटों वाली कार्यशाला, आपकी पसंद की राशि का दान, फिर कार्ड, टेस्ट मोड में Stripe या बैंक ट्रांसफ़र से भुगतान।"
   page_icon: 'ph:bold/list-checks'
   shop: 'दुकान पर जाएं'
   cart: कार्ट
@@ -109,6 +114,7 @@ hi:
 
 he:
   page_title: תסריטים
+  page_description: "חנות פועלת לניסיון: חולצה שנשלחת, סדנה עם מקומות לפי תאריכים, תרומה בסכום לבחירתכם, ואז תשלום בכרטיס, ב-Stripe במצב בדיקה או בהעברה בנקאית."
   page_icon: 'ph:bold/list-checks'
   shop: 'ללכת לחנות'
   cart: 'עגלת קניות'
@@ -130,6 +136,7 @@ he:
 
 fa:
   page_title: سناریوها
+  page_description: "یک فروشگاه فعال برای امتحان: تی‌شرتی که ارسال می‌شود، کارگاهی با ظرفیت‌های تاریخ‌دار، کمک مالی با مبلغ دلخواه، سپس پرداخت با کارت، Stripe در حالت آزمایشی یا انتقال بانکی."
   page_icon: 'ph:bold/list-checks'
   shop: 'به فروشگاه بروید'
   cart: 'سبد خرید'
@@ -151,6 +158,7 @@ fa:
 
 ur:
   page_title: مناظر
+  page_description: "آزمانے کے لیے ایک فعال دکان: بھیجی جانے والی ٹی شرٹ، تاریخ وار نشستوں والی ورکشاپ، آپ کی پسند کی رقم کا عطیہ، پھر کارڈ، ٹیسٹ موڈ میں Stripe یا بینک ٹرانسفر سے ادائیگی۔"
   page_icon: 'ph:bold/list-checks'
   shop: 'دکان پر جائیں'
   cart: کارٹ
@@ -172,6 +180,7 @@ ur:
 
 ja:
   page_title: シナリオ
+  page_description: "実際に試せるショップ：配送されるTシャツ、日程ごとに席数の限られたワークショップ、金額を選べる寄付。決済はカード、テストモードのStripe、銀行振込から。"
   page_icon: 'ph:bold/list-checks'
   shop: ショップへ行く
   cart: カート
@@ -193,6 +202,7 @@ ja:
 
 ko:
   page_title: 시나리오
+  page_description: "직접 체험하는 실제 상점: 배송되는 티셔츠, 날짜별 좌석이 있는 워크숍, 원하는 금액의 기부, 그리고 카드, 테스트 모드의 Stripe 또는 계좌이체로 결제."
   page_icon: 'ph:bold/list-checks'
   shop: '상점으로 가기'
   cart: 장바구니
@@ -214,6 +224,7 @@ ko:
 
 bn:
   page_title: পরিকল্পনা
+  page_description: "চেষ্টা করে দেখার জন্য একটি সচল দোকান: পাঠানো টি-শার্ট, তারিখভিত্তিক আসনের কর্মশালা, আপনার পছন্দের অঙ্কের দান, তারপর কার্ড, টেস্ট মোডে Stripe বা ব্যাংক ট্রান্সফারে পরিশোধ।"
   page_icon: 'ph:bold/list-checks'
   shop: 'দোকানে যান'
   cart: কার্ট
@@ -235,6 +246,7 @@ bn:
 
 th:
   page_title: สถานการณ์
+  page_description: "ร้านค้าที่ใช้งานได้จริงให้ลอง: เสื้อยืดที่จัดส่ง เวิร์กช็อปที่มีที่นั่งตามวัน การบริจาคตามจำนวนที่เลือก แล้วชำระเงินด้วยบัตร Stripe ในโหมดทดสอบ หรือโอนเงินผ่านธนาคาร"
   page_icon: 'ph:bold/list-checks'
   shop: ไปที่ร้าน
   cart: ตะกร้า
@@ -256,6 +268,7 @@ th:
 
 de:
   page_title: Szenarien
+  page_description: "Ein funktionierender Shop zum Ausprobieren: ein versandtes T-Shirt, ein Workshop mit Plätzen nach Datum, eine Spende in freier Höhe, dann Bezahlung per Karte, Stripe im Testmodus oder Überweisung."
   page_icon: 'ph:bold/list-checks'
   shop: 'Gehe zum Shop'
   cart: Warenkorb
@@ -277,6 +290,7 @@ de:
 
 fi:
   page_title: Skenaariot
+  page_description: "Toimiva kauppa kokeiltavaksi: lähetettävä T-paita, päivämäärittäin rajattu työpaja, vapaavalintainen lahjoitus, ja maksu kortilla, Stripen testitilassa tai tilisiirrolla."
   page_icon: 'ph:bold/list-checks'
   shop: 'Siirry kauppaan'
   cart: Ostoskori
@@ -298,6 +312,7 @@ fi:
 
 ru:
   page_title: Сценарии
+  page_description: "Работающий магазин, который можно попробовать: футболка с доставкой, мастер-класс с местами по датам, пожертвование на выбранную сумму, затем оплата картой, через Stripe в тестовом режиме или банковским переводом."
   page_icon: 'ph:bold/list-checks'
   shop: 'Перейти в магазин'
   cart: Корзина
@@ -319,6 +334,7 @@ ru:
 
 pl:
   page_title: Scenariusze
+  page_description: "Działający sklep do wypróbowania: wysyłana koszulka, warsztat z miejscami na konkretne daty, darowizna w wybranej kwocie, a potem płatność kartą, przez Stripe w trybie testowym lub przelewem."
   page_icon: 'ph:bold/list-checks'
   shop: 'Przejdź do sklepu'
   cart: Koszyk
@@ -340,6 +356,7 @@ pl:
 
 es:
   page_title: Escenarios
+  page_description: "Una tienda funcional para probar: una camiseta enviada, un taller con plazas por fecha, una donación del importe que elija y el pago con tarjeta, Stripe en modo de prueba o transferencia."
   page_icon: 'ph:bold/list-checks'
   shop: 'Ir a la tienda'
   cart: Carrito
@@ -361,6 +378,7 @@ es:
 
 it:
   page_title: Scenari
+  page_description: "Un negozio funzionante da provare: una T-shirt spedita, un workshop con posti per data, una donazione dell'importo scelto, poi il pagamento con carta, Stripe in modalità test o bonifico."
   page_icon: 'ph:bold/list-checks'
   shop: 'Vai al negozio'
   cart: Carrello
@@ -382,6 +400,7 @@ it:
 
 pt_BR:
   page_title: Cenários
+  page_description: "Uma loja funcional para testar: uma camiseta enviada, um workshop com vagas por data, uma doação do valor que você escolher e o pagamento com cartão, Stripe em modo de teste ou transferência."
   page_icon: 'ph:bold/list-checks'
   shop: 'Ir para a loja'
   cart: Carrinho
@@ -403,6 +422,7 @@ pt_BR:
 
 tr:
   page_title: Senaryolar
+  page_description: "Deneyebileceğiniz çalışan bir mağaza: kargolanan bir tişört, tarihli kontenjanlı bir atölye, dilediğiniz tutarda bir bağış, ardından kartla, test modunda Stripe ile veya havaleyle ödeme."
   page_icon: 'ph:bold/list-checks'
   shop: 'Mağazaya git'
   cart: Sepet
@@ -424,6 +444,7 @@ tr:
 
 vi:
   page_title: 'Kịch bản'
+  page_description: "Một cửa hàng hoạt động thật để dùng thử: áo phông được giao, buổi workshop có chỗ theo ngày, khoản quyên góp tùy chọn, rồi thanh toán bằng thẻ, Stripe ở chế độ thử nghiệm hoặc chuyển khoản."
   page_icon: 'ph:bold/list-checks'
   shop: 'Đi đến cửa hàng'
   cart: 'Giỏ hàng'
@@ -445,6 +466,7 @@ vi:
 
 id:
   page_title: Skenario
+  page_description: "Toko yang berfungsi untuk dicoba: kaus yang dikirim, lokakarya dengan kursi per tanggal, donasi dengan nominal pilihan Anda, lalu pembayaran dengan kartu, Stripe mode uji, atau transfer bank."
   page_icon: 'ph:bold/list-checks'
   shop: 'Kunjungi toko'
   cart: Keranjang
@@ -466,6 +488,7 @@ id:
 
 nl:
   page_title: "Scenario's"
+  page_description: "Een werkende winkel om uit te proberen: een verzonden T-shirt, een workshop met plaatsen per datum, een donatie naar keuze, en dan afrekenen met kaart, Stripe in testmodus of overschrijving."
   page_icon: 'ph:bold/list-checks'
   shop: 'Ga naar de winkel'
   cart: Winkelwagentje
