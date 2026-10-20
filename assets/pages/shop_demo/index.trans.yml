@@ -26,8 +26,9 @@ en:
       text: A cart left unpaid gives its stock back when `bin/console shop:expire` runs.
 
 fr:
-  page_title: Scénarios
-  page_description: "Une boutique fonctionnelle à essayer : un T-shirt expédié, un atelier à places datées, un don du montant choisi, puis le paiement par carte, Stripe en mode test ou virement."
+  page_title: 'Scénarios de boutique'
+  document_title: 'Démonstration de boutique en ligne — scénarios de panier et de paiement'
+  page_description: 'Une boutique fonctionnelle à essayer : un T-shirt expédié, un atelier à places datées, un don du montant choisi, puis le paiement par carte, Stripe en mode test ou virement.'
   page_icon: 'ph:bold/list-checks'
   shop: 'Aller au magasin'
   cart: Panier
@@ -48,8 +49,9 @@ fr:
       text: 'Un panier laissé impayé restitue son stock lorsque `bin/console shop:expire` est exécuté.'
 
 zh:
-  page_title: 场景
-  page_description: "一个可试用的真实商店：可配送的 T 恤、按日期限定名额的工作坊、自定金额的捐款，然后通过银行卡、测试模式的 Stripe 或银行转账结账。"
+  page_title: 购物场景
+  document_title: '在线商店演示 — 购物车和结账场景'
+  page_description: '一个可试用的真实商店：可配送的 T 恤、按日期限定名额的工作坊、自定金额的捐款，然后通过银行卡、测试模式的 Stripe 或银行转账结账。'
   page_icon: 'ph:bold/list-checks'
   shop: 前往商店
   cart: 购物车
@@ -70,8 +72,9 @@ zh:
       text: '未支付的购物车在运行 `bin/console shop:expire` 时将其库存归还。'
 
 ar:
-  page_title: السيناريوهات
-  page_description: "متجر يعمل يمكنك تجربته: قميص يُشحن، ورشة عمل بمقاعد محددة التواريخ، تبرع بالمبلغ الذي تختاره، ثم الدفع بالبطاقة أو Stripe في وضع الاختبار أو التحويل البنكي."
+  page_title: 'سيناريوهات المتجر'
+  document_title: 'عرض المتجر عبر الإنترنت — سيناريوهات السلة والدفع'
+  page_description: 'متجر يعمل يمكنك تجربته: قميص يُشحن، ورشة عمل بمقاعد محددة التواريخ، تبرع بالمبلغ الذي تختاره، ثم الدفع بالبطاقة أو Stripe في وضع الاختبار أو التحويل البنكي.'
   page_icon: 'ph:bold/list-checks'
   shop: 'اذهب إلى المتجر'
   cart: 'عربة التسوق'
@@ -92,8 +95,9 @@ ar:
       text: 'عربة تُركت دون دفع تعيد مخزونها عندما يتم تشغيل `bin/console shop:expire`.'
 
 hi:
-  page_title: परिदृश्य
-  page_description: "आज़माने के लिए एक चालू दुकान: भेजी जाने वाली टी-शर्ट, तारीख़वार सीटों वाली कार्यशाला, आपकी पसंद की राशि का दान, फिर कार्ड, टेस्ट मोड में Stripe या बैंक ट्रांसफ़र से भुगतान।"
+  page_title: 'खरीदारी के परिदृश्य'
+  document_title: 'ऑनलाइन दुकान डेमो — कार्ट और चेकआउट परिदृश्य'
+  page_description: 'आज़माने के लिए एक चालू दुकान: भेजी जाने वाली टी-शर्ट, तारीख़वार सीटों वाली कार्यशाला, आपकी पसंद की राशि का दान, फिर कार्ड, टेस्ट मोड में Stripe या बैंक ट्रांसफ़र से भुगतान।'
   page_icon: 'ph:bold/list-checks'
   shop: 'दुकान पर जाएं'
   cart: कार्ट
@@ -114,8 +118,9 @@ hi:
       text: 'एक बिना भुगतान की गई कार्ट जब `bin/console shop:expire` चलती है, तो इसका स्टॉक वापस दे देती है।'
 
 he:
-  page_title: תסריטים
-  page_description: "חנות פועלת לניסיון: חולצה שנשלחת, סדנה עם מקומות לפי תאריכים, תרומה בסכום לבחירתכם, ואז תשלום בכרטיס, ב-Stripe במצב בדיקה או בהעברה בנקאית."
+  page_title: 'תסריטי חנות'
+  document_title: 'דemo חנות אונליין — תסריטי עגלת קניות ותהליך תשלום'
+  page_description: 'חנות פועלת לניסיון: חולצה שנשלחת, סדנה עם מקומות לפי תאריכים, תרומה בסכום לבחירתכם, ואז תשלום בכרטיס, ב-Stripe במצב בדיקה או בהעברה בנקאית.'
   page_icon: 'ph:bold/list-checks'
   shop: 'ללכת לחנות'
   cart: 'עגלת קניות'
@@ -136,8 +141,9 @@ he:
       text: 'עגלת קניות שהושארה ללא תשלום מחזירה את המלאי שלה כאשר `bin/console shop:expire` רץ.'
 
 fa:
-  page_title: سناریوها
-  page_description: "یک فروشگاه فعال برای امتحان: تی‌شرتی که ارسال می‌شود، کارگاهی با ظرفیت‌های تاریخ‌دار، کمک مالی با مبلغ دلخواه، سپس پرداخت با کارت، Stripe در حالت آزمایشی یا انتقال بانکی."
+  page_title: 'سناریوهای فروشگاه'
+  document_title: 'دمو فروشگاه آنلاین — سناریوهای سبد خرید و پرداخت'
+  page_description: 'یک فروشگاه فعال برای امتحان: تی‌شرتی که ارسال می‌شود، کارگاهی با ظرفیت‌های تاریخ‌دار، کمک مالی با مبلغ دلخواه، سپس پرداخت با کارت، Stripe در حالت آزمایشی یا انتقال بانکی.'
   page_icon: 'ph:bold/list-checks'
   shop: 'به فروشگاه بروید'
   cart: 'سبد خرید'
@@ -158,8 +164,9 @@ fa:
       text: 'یک سبد خرید که پرداخت نشده باشد، موجودی آن زمانی که `bin/console shop:expire` اجرا می‌شود، برمی‌گرداند.'
 
 ur:
-  page_title: مناظر
-  page_description: "آزمانے کے لیے ایک فعال دکان: بھیجی جانے والی ٹی شرٹ، تاریخ وار نشستوں والی ورکشاپ، آپ کی پسند کی رقم کا عطیہ، پھر کارڈ، ٹیسٹ موڈ میں Stripe یا بینک ٹرانسفر سے ادائیگی۔"
+  page_title: 'خریداری کے منظرنامے'
+  document_title: 'آن لائن دکان کا مظاہرہ — کارٹ اور چیک آؤٹ منظرنامے'
+  page_description: 'آزمانے کے لیے ایک فعال دکان: بھیجی جانے والی ٹی شرٹ، تاریخ وار نشستوں والی ورکشاپ، آپ کی پسند کی رقم کا عطیہ، پھر کارڈ، ٹیسٹ موڈ میں Stripe یا بینک ٹرانسفر سے ادائیگی۔'
   page_icon: 'ph:bold/list-checks'
   shop: 'دکان پر جائیں'
   cart: کارٹ
@@ -180,8 +187,9 @@ ur:
       text: 'ایک ادائیگی نہ ہونے والا کارٹ `bin/console shop:expire` چلنے پر اپنے اسٹاک واپس دیتا ہے۔'
 
 ja:
-  page_title: シナリオ
-  page_description: "実際に試せるショップ：配送されるTシャツ、日程ごとに席数の限られたワークショップ、金額を選べる寄付。決済はカード、テストモードのStripe、銀行振込から。"
+  page_title: ショップシナリオ
+  document_title: 'オンラインショップデモ — カートとチェックアウトのシナリオ'
+  page_description: 実際に試せるショップ：配送されるTシャツ、日程ごとに席数の限られたワークショップ、金額を選べる寄付。決済はカード、テストモードのStripe、銀行振込から。
   page_icon: 'ph:bold/list-checks'
   shop: ショップへ行く
   cart: カート
@@ -202,8 +210,9 @@ ja:
       text: '未払いのカートは、`bin/console shop:expire`が実行されると在庫が戻ります。'
 
 ko:
-  page_title: 시나리오
-  page_description: "직접 체험하는 실제 상점: 배송되는 티셔츠, 날짜별 좌석이 있는 워크숍, 원하는 금액의 기부, 그리고 카드, 테스트 모드의 Stripe 또는 계좌이체로 결제."
+  page_title: '상점 시나리오'
+  document_title: '온라인 상점 데모 — 장바구니 및 체크아웃 시나리오'
+  page_description: '직접 체험하는 실제 상점: 배송되는 티셔츠, 날짜별 좌석이 있는 워크숍, 원하는 금액의 기부, 그리고 카드, 테스트 모드의 Stripe 또는 계좌이체로 결제.'
   page_icon: 'ph:bold/list-checks'
   shop: '상점으로 가기'
   cart: 장바구니
@@ -224,8 +233,9 @@ ko:
       text: '결제되지 않은 장바구니는 `bin/console shop:expire`가 실행될 때 재고를 반환합니다.'
 
 bn:
-  page_title: পরিকল্পনা
-  page_description: "চেষ্টা করে দেখার জন্য একটি সচল দোকান: পাঠানো টি-শার্ট, তারিখভিত্তিক আসনের কর্মশালা, আপনার পছন্দের অঙ্কের দান, তারপর কার্ড, টেস্ট মোডে Stripe বা ব্যাংক ট্রান্সফারে পরিশোধ।"
+  page_title: 'দোকানের পরিস্থিতি'
+  document_title: 'অনলাইন দোকান ডেমো — কার্ট এবং চেকআউট পরিস্থিতি'
+  page_description: 'চেষ্টা করে দেখার জন্য একটি সচল দোকান: পাঠানো টি-শার্ট, তারিখভিত্তিক আসনের কর্মশালা, আপনার পছন্দের অঙ্কের দান, তারপর কার্ড, টেস্ট মোডে Stripe বা ব্যাংক ট্রান্সফারে পরিশোধ।'
   page_icon: 'ph:bold/list-checks'
   shop: 'দোকানে যান'
   cart: কার্ট
@@ -246,8 +256,9 @@ bn:
       text: 'একটি অনাদায়ী কার্ট `bin/console shop:expire` চালানোর সময় তার স্টক ফেরত দেয়।'
 
 th:
-  page_title: สถานการณ์
-  page_description: "ร้านค้าที่ใช้งานได้จริงให้ลอง: เสื้อยืดที่จัดส่ง เวิร์กช็อปที่มีที่นั่งตามวัน การบริจาคตามจำนวนที่เลือก แล้วชำระเงินด้วยบัตร Stripe ในโหมดทดสอบ หรือโอนเงินผ่านธนาคาร"
+  page_title: สถานการณ์การช้อปปิ้ง
+  document_title: 'การสาธิตร้านค้าออนไลน์ — สถานการณ์ตะกร้าและการชำระเงิน'
+  page_description: 'ร้านค้าที่ใช้งานได้จริงให้ลอง: เสื้อยืดที่จัดส่ง เวิร์กช็อปที่มีที่นั่งตามวัน การบริจาคตามจำนวนที่เลือก แล้วชำระเงินด้วยบัตร Stripe ในโหมดทดสอบ หรือโอนเงินผ่านธนาคาร'
   page_icon: 'ph:bold/list-checks'
   shop: ไปที่ร้าน
   cart: ตะกร้า
@@ -268,8 +279,9 @@ th:
       text: 'ตะกร้าที่ไม่ได้ชำระเงินจะคืนสต็อกเมื่อรัน `bin/console shop:expire`.'
 
 de:
-  page_title: Szenarien
-  page_description: "Ein funktionierender Shop zum Ausprobieren: ein versandtes T-Shirt, ein Workshop mit Plätzen nach Datum, eine Spende in freier Höhe, dann Bezahlung per Karte, Stripe im Testmodus oder Überweisung."
+  page_title: Shop-Szenarien
+  document_title: 'Online-Shop-Demo — Warenkorb- und Checkout-Szenarien'
+  page_description: 'Ein funktionierender Shop zum Ausprobieren: ein versandtes T-Shirt, ein Workshop mit Plätzen nach Datum, eine Spende in freier Höhe, dann Bezahlung per Karte, Stripe im Testmodus oder Überweisung.'
   page_icon: 'ph:bold/list-checks'
   shop: 'Gehe zum Shop'
   cart: Warenkorb
@@ -290,8 +302,9 @@ de:
       text: 'Ein unbezahlter Warenkorb gibt seinen Bestand zurück, wenn `bin/console shop:expire` ausgeführt wird.'
 
 fi:
-  page_title: Skenaariot
-  page_description: "Toimiva kauppa kokeiltavaksi: lähetettävä T-paita, päivämäärittäin rajattu työpaja, vapaavalintainen lahjoitus, ja maksu kortilla, Stripen testitilassa tai tilisiirrolla."
+  page_title: Ostoprosessit
+  document_title: 'Verkkokaupan demo — ostoskori ja kassaprosessit'
+  page_description: 'Toimiva kauppa kokeiltavaksi: lähetettävä T-paita, päivämäärittäin rajattu työpaja, vapaavalintainen lahjoitus, ja maksu kortilla, Stripen testitilassa tai tilisiirrolla.'
   page_icon: 'ph:bold/list-checks'
   shop: 'Siirry kauppaan'
   cart: Ostoskori
@@ -312,8 +325,9 @@ fi:
       text: 'Maksamatta jäänyt ostoskori palauttaa varastonsa, kun `bin/console shop:expire` suoritetaan.'
 
 ru:
-  page_title: Сценарии
-  page_description: "Работающий магазин, который можно попробовать: футболка с доставкой, мастер-класс с местами по датам, пожертвование на выбранную сумму, затем оплата картой, через Stripe в тестовом режиме или банковским переводом."
+  page_title: 'Сценарии магазина'
+  document_title: 'Демо интернет-магазина — сценарии корзины и оформления заказа'
+  page_description: 'Работающий магазин, который можно попробовать: футболка с доставкой, мастер-класс с местами по датам, пожертвование на выбранную сумму, затем оплата картой, через Stripe в тестовом режиме или банковским переводом.'
   page_icon: 'ph:bold/list-checks'
   shop: 'Перейти в магазин'
   cart: Корзина
@@ -334,8 +348,9 @@ ru:
       text: 'Корзина, оставленная неоплаченной, возвращает свои товары, когда выполняется `bin/console shop:expire`.'
 
 pl:
-  page_title: Scenariusze
-  page_description: "Działający sklep do wypróbowania: wysyłana koszulka, warsztat z miejscami na konkretne daty, darowizna w wybranej kwocie, a potem płatność kartą, przez Stripe w trybie testowym lub przelewem."
+  page_title: 'Scenariusze sklepu'
+  document_title: 'Demo sklepu internetowego — scenariusze koszyka i płatności'
+  page_description: 'Działający sklep do wypróbowania: wysyłana koszulka, warsztat z miejscami na konkretne daty, darowizna w wybranej kwocie, a potem płatność kartą, przez Stripe w trybie testowym lub przelewem.'
   page_icon: 'ph:bold/list-checks'
   shop: 'Przejdź do sklepu'
   cart: Koszyk
@@ -356,8 +371,9 @@ pl:
       text: 'Koszyk pozostawiony bez zapłaty zwraca swoje zapasy, gdy uruchomi się `bin/console shop:expire`.'
 
 es:
-  page_title: Escenarios
-  page_description: "Una tienda funcional para probar: una camiseta enviada, un taller con plazas por fecha, una donación del importe que elija y el pago con tarjeta, Stripe en modo de prueba o transferencia."
+  page_title: 'Escenarios de compra'
+  document_title: 'Demostración de tienda en línea — escenarios de carrito y pago'
+  page_description: 'Una tienda funcional para probar: una camiseta enviada, un taller con plazas por fecha, una donación del importe que elija y el pago con tarjeta, Stripe en modo de prueba o transferencia.'
   page_icon: 'ph:bold/list-checks'
   shop: 'Ir a la tienda'
   cart: Carrito
@@ -378,7 +394,8 @@ es:
       text: 'Un carrito dejado sin pagar devuelve su stock cuando se ejecuta `bin/console shop:expire`.'
 
 it:
-  page_title: Scenari
+  page_title: 'Scenari del negozio'
+  document_title: 'Demo negozio online — scenari di carrello e pagamento'
   page_description: "Un negozio funzionante da provare: una T-shirt spedita, un workshop con posti per data, una donazione dell'importo scelto, poi il pagamento con carta, Stripe in modalità test o bonifico."
   page_icon: 'ph:bold/list-checks'
   shop: 'Vai al negozio'
@@ -400,8 +417,9 @@ it:
       text: 'Un carrello lasciato non pagato restituisce il suo stock quando `bin/console shop:expire` viene eseguito.'
 
 pt_BR:
-  page_title: Cenários
-  page_description: "Uma loja funcional para testar: uma camiseta enviada, um workshop com vagas por data, uma doação do valor que você escolher e o pagamento com cartão, Stripe em modo de teste ou transferência."
+  page_title: 'Cenários de loja'
+  document_title: 'Demonstração de loja online — cenários de carrinho e checkout'
+  page_description: 'Uma loja funcional para testar: uma camiseta enviada, um workshop com vagas por data, uma doação do valor que você escolher e o pagamento com cartão, Stripe em modo de teste ou transferência.'
   page_icon: 'ph:bold/list-checks'
   shop: 'Ir para a loja'
   cart: Carrinho
@@ -422,8 +440,9 @@ pt_BR:
       text: 'Um carrinho deixado sem pagamento devolve seu estoque quando `bin/console shop:expire` é executado.'
 
 tr:
-  page_title: Senaryolar
-  page_description: "Deneyebileceğiniz çalışan bir mağaza: kargolanan bir tişört, tarihli kontenjanlı bir atölye, dilediğiniz tutarda bir bağış, ardından kartla, test modunda Stripe ile veya havaleyle ödeme."
+  page_title: 'Mağaza senaryoları'
+  document_title: 'Çevrimiçi mağaza demosu — sepet ve ödeme senaryoları'
+  page_description: 'Deneyebileceğiniz çalışan bir mağaza: kargolanan bir tişört, tarihli kontenjanlı bir atölye, dilediğiniz tutarda bir bağış, ardından kartla, test modunda Stripe ile veya havaleyle ödeme.'
   page_icon: 'ph:bold/list-checks'
   shop: 'Mağazaya git'
   cart: Sepet
@@ -444,8 +463,9 @@ tr:
       text: 'Ödenmemiş bir sepet, `bin/console shop:expire` çalıştırıldığında stokunu geri verir.'
 
 vi:
-  page_title: 'Kịch bản'
-  page_description: "Một cửa hàng hoạt động thật để dùng thử: áo phông được giao, buổi workshop có chỗ theo ngày, khoản quyên góp tùy chọn, rồi thanh toán bằng thẻ, Stripe ở chế độ thử nghiệm hoặc chuyển khoản."
+  page_title: 'Kịch bản cửa hàng'
+  document_title: 'Mô phỏng cửa hàng trực tuyến — kịch bản giỏ hàng và thanh toán'
+  page_description: 'Một cửa hàng hoạt động thật để dùng thử: áo phông được giao, buổi workshop có chỗ theo ngày, khoản quyên góp tùy chọn, rồi thanh toán bằng thẻ, Stripe ở chế độ thử nghiệm hoặc chuyển khoản.'
   page_icon: 'ph:bold/list-checks'
   shop: 'Đi đến cửa hàng'
   cart: 'Giỏ hàng'
@@ -466,8 +486,9 @@ vi:
       text: 'Một giỏ hàng không thanh toán sẽ trả lại hàng tồn kho khi `bin/console shop:expire` được chạy.'
 
 id:
-  page_title: Skenario
-  page_description: "Toko yang berfungsi untuk dicoba: kaus yang dikirim, lokakarya dengan kursi per tanggal, donasi dengan nominal pilihan Anda, lalu pembayaran dengan kartu, Stripe mode uji, atau transfer bank."
+  page_title: 'Skenario Toko'
+  document_title: 'Demo Toko Online — skenario keranjang dan pembayaran'
+  page_description: 'Toko yang berfungsi untuk dicoba: kaus yang dikirim, lokakarya dengan kursi per tanggal, donasi dengan nominal pilihan Anda, lalu pembayaran dengan kartu, Stripe mode uji, atau transfer bank.'
   page_icon: 'ph:bold/list-checks'
   shop: 'Kunjungi toko'
   cart: Keranjang
@@ -488,8 +509,9 @@ id:
       text: 'Keranjang yang tidak dibayar mengembalikan stoknya ketika `bin/console shop:expire` dijalankan.'
 
 nl:
-  page_title: "Scenario's"
-  page_description: "Een werkende winkel om uit te proberen: een verzonden T-shirt, een workshop met plaatsen per datum, een donatie naar keuze, en dan afrekenen met kaart, Stripe in testmodus of overschrijving."
+  page_title: "Winkelscenario's"
+  document_title: "Online winkel demo — winkelwagentje en afreken scenario's"
+  page_description: 'Een werkende winkel om uit te proberen: een verzonden T-shirt, een workshop met plaatsen per datum, een donatie naar keuze, en dan afrekenen met kaart, Stripe in testmodus of overschrijving.'
   page_icon: 'ph:bold/list-checks'
   shop: 'Ga naar de winkel'
   cart: Winkelwagentje
