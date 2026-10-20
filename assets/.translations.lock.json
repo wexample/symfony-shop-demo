@@ -374,7 +374,8 @@
     "pages/shop_demo/index.fr.yml": {
         "cart": {
             "hash": "79f8dbb331b4aeca632b4c372341b566",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "cases.bought.text": {
             "hash": "2b5208eff640bcd27701f1f3710964ef",
@@ -382,7 +383,8 @@
         },
         "cases.bought.title": {
             "hash": "e8c3859c68910b4bba1c3fb42ffd74c4",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "cases.expired.text": {
             "hash": "2c704afe3823ca655d13218357332193",
@@ -390,7 +392,8 @@
         },
         "cases.expired.title": {
             "hash": "f2be628d0d808b566c61a9aebe6ae914",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "cases.failed.text": {
             "hash": "96080d08d118cd84f231fc4e088979e1",
@@ -406,11 +409,13 @@
         },
         "cases.sold_out.title": {
             "hash": "5777e667b67888121e6e7f0dcd11e71b",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "cases.title": {
             "hash": "b71c268d741ee49b752f928266f09e64",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "document_title": {
             "hash": "082f99c3c66c1529cb0a400cf7154f7f",
@@ -426,11 +431,13 @@
         },
         "page_title": {
             "hash": "ad37de121de3d5d265133459271c83f9",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "shop": {
             "hash": "c3f85850a4d00805ee5187795ebb8c58",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         }
     },
     "pages/shop_demo/index.he.yml": {
