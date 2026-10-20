@@ -1,6 +1,6 @@
 # symfony-shop-demo
 
-Version: 1.0.6
+Version: 1.0.7
 
 A demo of symfony-shop-ds: a small catalogue bought through the purchase tunnel and a provider pretended
 
@@ -25,7 +25,7 @@ The suite includes packages for configuration management, file handling, prompts
 
 - php: >=8.5
 - wexample/symfony-helpers: >=17.0.0
-- wexample/symfony-loader: >=23.1.0
+- wexample/symfony-loader: >=23.2.0
 - wexample/symfony-design-system: >=37.0.0
 - wexample/symfony-shop: >=4.0.0
 - wexample/symfony-shop-ds: >=2.1.0
