@@ -4,7 +4,7 @@ git:
 global:
   name: symfony-shop-demo
   type: php-package
-  version: 1.0.13
+  version: 1.0.14
 wex:
   migration: 3
   version: 6.0.150
