@@ -1,6 +1,6 @@
 {
   "name": "wexample/symfony-shop-demo",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "type": "library",
   "license": "MIT",
   "description": "A demo of symfony-shop-ds: a small catalogue bought through the purchase tunnel and a provider pretended",
@@ -22,13 +22,13 @@
   ],
   "require": {
     "php": ">=8.5",
-    "wexample/symfony-helpers": ">=19.0.0",
+    "wexample/symfony-helpers": ">=19.1.0",
     "wexample/symfony-loader": ">=25.3.0",
     "wexample/symfony-design-system": ">=40.0.0",
     "wexample/symfony-shop": ">=5.0.1",
     "wexample/symfony-shop-ds": ">=3.0.2",
     "wexample/symfony-payment-demo": ">=2.1.5",
-    "wexample/symfony-user": ">=17.0.0",
+    "wexample/symfony-user": ">=18.0.0",
     "wexample/symfony-user-demo": ">=8.0.3"
   },
   "require-dev": {
