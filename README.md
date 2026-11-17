@@ -1,6 +1,6 @@
 # symfony-shop-demo
 
-Version: 1.0.28
+Version: 1.0.29
 
 A demo of symfony-shop-ds: a small catalogue bought through the purchase tunnel and a provider pretended
 
